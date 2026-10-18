@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Carson 👋</h1>
+<h1 align="center">Hi, I'm Carson</h1>
 
 <p align="center">
   <b>Financial Analyst</b> · FP&amp;A · Equities &amp; Options · Crypto · Tokenization · AI
