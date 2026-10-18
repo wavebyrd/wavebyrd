@@ -14,7 +14,7 @@
 
 ### About me
 
-Financial analyst specializing in FP&A: forecasting, budgeting, and variance analysis. Active in equities and options trading, with a strong interest in crypto, asset tokenization, and AI-driven financial tools.
+Financial analyst specializing in FP&A: forecasting, budgeting, and variance analysis. Active in equities and options trading, with a strong interest in crypto, asset tokenization, and AI-driven financial tools. Creator of [OpenVariance](https://github.com/wavebyrd/openvariance), an open source FP&A variance analysis engine.
 
 ### What I focus on
 
@@ -28,6 +28,7 @@ Financial analyst specializing in FP&A: forecasting, budgeting, and variance ana
 
 ### Featured work
 
+- **[OpenVariance](https://github.com/wavebyrd/openvariance)**: open source FP&A variance analysis. It explains why your numbers moved with reconciling driver bridges, and adds three-statement forecasts, Excel output, and an MCP server for AI agents.
 - **[Panther Terminal](https://pantherterminal.com)**: a market intelligence platform.
 - **[panther-tokenization-onboarding](https://github.com/wavebyrd/panther-tokenization-onboarding)**: an educational portfolio simulator for tokenized assets, with mean-variance allocation, a glide path, and live on-chain fill checks.
 
@@ -45,7 +46,7 @@ Financial analyst specializing in FP&A: forecasting, budgeting, and variance ana
 
 ### Currently
 
-- Building an open-source FP&A variance and forecast engine with a local MCP server
+- Building [OpenVariance](https://github.com/wavebyrd/openvariance), an open source FP&A variance and forecast engine
 - Researching tokenized securities and RWA market structure
 - Backtesting options strategies
 
