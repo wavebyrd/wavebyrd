@@ -35,7 +35,7 @@ Financial analyst specializing in FP&A: forecasting, budgeting, and variance ana
 | [panther-tokenization-onboarding](https://github.com/wavebyrd/panther-tokenization-onboarding) | Educational portfolio simulator for tokenized assets. Mean-variance allocation, a glide path with correlated stock and bond returns, and live checks of which issuer and chain can fill each order at its real size. TypeScript. |
 | [Panther Terminal](https://pantherterminal.com) | Market intelligence platform for tokenized securities and real-world assets. |
 
-All of the open source projects run locally, use only free public data, and keep money math exact.
+OpenVariance and Form4Clean are MIT licensed. Both run locally, use only free public data, and keep money math exact. The tokenization simulator is public but not licensed for reuse.
 
 ### Toolkit
 
