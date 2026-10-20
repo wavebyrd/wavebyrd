@@ -37,6 +37,20 @@ Financial analyst focused on forecasting, budgeting, and variance analysis. Acti
 
 OpenVariance and Form4Clean are MIT licensed. Both run locally, use only free public data, and keep money math exact. The tokenization simulator is public but not licensed for reuse.
 
+### Open source contributions
+
+27 pull requests merged into 20 public repositories outside my account, as of October 20, 2026 ([search](https://github.com/search?q=author%3Awavebyrd+is%3Apr+is%3Amerged+is%3Apublic+-user%3Awavebyrd&type=pullrequests)). Mostly correctness fixes in the Python finance and crypto libraries I use.
+
+| Project | Fix | What was wrong |
+| --- | --- | --- |
+| [yfinance](https://github.com/ranaroussi/yfinance/pull/2718) | Make `download()` thread-safe | Concurrent calls shared module-level result dicts, so one thread could overwrite another's data and return a corrupted DataFrame. Added a lock and a two-thread test. |
+| [vectorbt](https://github.com/polakowo/vectorbt/pull/886) | Record active drawdowns when a series ends in NaN | The numba kernel only saved a running drawdown on the last row, and skipped that check on NaN, so any asset whose data ended early reported no drawdown at all. |
+| [viem](https://github.com/wevm/viem/pull/5240) | Keep an empty `version` in the EIP-712 domain | A truthiness check dropped `version: ""` from the type hash, so signatures for contracts like OpenZeppelin's `EIP712("Name", "")` failed to verify. Result now matches ethers v6. |
+| [solana-py](https://github.com/michaelhly/solana-py/pull/709) | Decode every signer in M-of-N multisigs | The decoders read the last `m` accounts as signers, but `m` is the signature threshold, so an M-of-N multisig with M < N lost its first N - M signers on round trip. |
+| [ffn](https://github.com/pmorissette/ffn/pull/429) | Ignore leading missing prices in monthly and yearly stats | An asset that started trading later got empty months before its first price, which zeroed its first month, skewed YTD, and inflated the win-rate denominators. Single-series and grouped stats disagreed on the same data. |
+
+Others: a UK bank holiday calendar fix in FinancePy, ccxt tickers missing bid and ask, a news cache in yfinance that ignored its arguments, and smaller fixes in aiohttp, bokeh, CPython, cryptofeed, FinanceToolkit, nostr-tools and skfolio.
+
 ### Toolkit
 
 <p>
