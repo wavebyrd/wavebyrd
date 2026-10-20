@@ -14,7 +14,7 @@
 
 ### About me
 
-Financial analyst specializing in FP&A: forecasting, budgeting, and variance analysis. Active in equities and options trading, with a strong interest in crypto, asset tokenization, and AI-driven financial tools. I build open source Python tools for finance work that has to tie out: [OpenVariance](https://github.com/wavebyrd/openvariance) for variance analysis and forecasting, and [Form4Clean](https://github.com/wavebyrd/form4clean) for SEC insider trading data.
+Financial analyst focused on forecasting, budgeting, and variance analysis. Active in equities and options trading, with a strong interest in crypto, asset tokenization, and AI-driven financial tools. I build open source Python tools for finance work that has to tie out: [OpenVariance](https://github.com/wavebyrd/openvariance) for variance analysis and forecasting, and [Form4Clean](https://github.com/wavebyrd/form4clean) for SEC insider trading data.
 
 ### What I focus on
 
