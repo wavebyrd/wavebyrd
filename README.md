@@ -39,7 +39,7 @@ OpenVariance and Form4Clean are MIT licensed. Both run locally, use only free pu
 
 ### Open source contributions
 
-85 pull requests merged into 45 public repositories outside my account, as of November 20, 2026 ([search](https://github.com/search?q=author%3Awavebyrd+is%3Apr+is%3Amerged+is%3Apublic+-user%3Awavebyrd&type=pullrequests)). Mostly correctness fixes in the Python finance and crypto libraries I use.
+88 pull requests merged into 46 public repositories outside my account, as of November 21, 2026 ([search](https://github.com/search?q=author%3Awavebyrd+is%3Apr+is%3Amerged+is%3Apublic+-user%3Awavebyrd&type=pullrequests)). Mostly correctness fixes in the Python finance and crypto libraries I use.
 
 | Project | Fix | What was wrong |
 | --- | --- | --- |
